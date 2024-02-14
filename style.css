@@ -13,15 +13,57 @@ table {
     height: 40ch;
 }
 
-.tablita td, th {
-    border: 1px solid black;
+table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th {
     text-align: center;
-}
-
-th {
     font-family: 'Courier New', Courier, monospace;
-}
+    background-color: #f2f2f2;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
 
-td {
+  td {
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .MP14 {
+    background-color: aquamarine;
+  }
+
+  .MP06 {
+    background-color: blanchedalmond;
+  }
+
+  .MP12 {
+    background-color: burlywood;
+  }
+
+  .T {
+    background-color: darkgreen;
+  }
+
+  .MP07 {
+    background-color: dodgerblue;
+  }
+
+  .MP08 {
+    background-color: cyan;
+  }
+
+  .MP04 {
+    background-color: greenyellow;
+  }
+
+  .MP10 {
+    background-color: mediumseagreen;
+  }
