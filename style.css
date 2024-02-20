@@ -1,24 +1,26 @@
+
 body {
     background-color: beige;
+    margin: 55px;
 }
 .tablita {
     border-collapse: collapse;
+    border: 3px solid ;
     background-color: aliceblue;
+    height: 60ch;
 
 }
 
 table {
     margin: auto;
     width: 75ch;
-    height: 40ch;
-}
-
-table {
-    
-    width: 100%;
+    height: 50ch;
+    width: 75%;
     border-collapse: collapse;
+    padding: 100px;
     margin-bottom: 20px;
-  }
+    table-layout: fixed;
+}
 
   th {
     text-align: center;
@@ -26,14 +28,14 @@ table {
     background-color: #f2f2f2;
     padding: 12px;
     font-weight: bold;
-    border: 1px solid #ddd;
+    border: 2px solid black;
   }
 
   td {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 10x;
+    border: 1px solid darkgrey;
   }
 
   .MP14 {
@@ -41,29 +43,62 @@ table {
   }
 
   .MP06 {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 149, 135);
   }
 
   .MP12 {
-    background-color: burlywood;
+    background-color: rgb(250, 206, 112);
   }
 
   .T {
-    background-color: darkgreen;
+    background-color: rgb(63, 219, 131);
   }
 
   .MP07 {
-    background-color: dodgerblue;
+    background-color: rgb(101, 178, 255);
   }
 
   .MP08 {
-    background-color: cyan;
+    background-color: rgb(74, 255, 255);
   }
 
   .MP04 {
-    background-color: greenyellow;
+    background-color: rgb(176, 158, 255);
   }
 
   .MP10 {
-    background-color: mediumseagreen;
+    background-color: rgb(100, 253, 169);
+  }
+
+  .NADA {
+    background-color: rgb(253, 169, 183);
+  }
+
+  .Esbarjo {
+    background-color: lightcyan;
+  }
+
+  table.tablaprofes {
+    width: 65%;
+  }
+
+  table.tablaprofes td {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10x;
+    padding-left: 10px;
+    border: 2px solid black;
+  }
+  
+  table.tablaprofes th {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(226, 156, 65);
+    padding: 12px;
+    font-weight: bold;
+    border: 3px solid black;
+  }
+
+  .titulotabla {
+    text-align: center;
   }
