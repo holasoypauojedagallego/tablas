@@ -102,3 +102,18 @@ table {
   .titulotabla {
     text-align: center;
   }
+
+  table.tablaalumnos td {
+    border: 2px solid rgb(134, 128, 128);
+  }
+
+  table.tablaalumnos th{
+    border: 2px solid rgb(128, 122, 122);
+  }
+
+  table.tablaalumnos {
+    background-color: bisque;
+    border: 3px solid black;
+  }
+
+ 
