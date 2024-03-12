@@ -116,4 +116,10 @@ table {
     border: 3px solid black;
   }
 
- 
+  td:first-child {
+    color: rgb(44, 151, 44);
+  }
+
+  td:last-child {
+    color: aquamarine;
+  }
